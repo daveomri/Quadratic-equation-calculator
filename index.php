@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Formulář</title>
+<title>Form</title>
 <link rel="stylesheet" href="./style/bootstrap.css" type="text/css" media="screen"/>
 </head>
 <body class="jumbotron">
-<div id="container">
-<div id="sitename">
-<h1>Kvadratická rovnice</h1>
-</div>
-      <div id="wrap1">
-        <div id="contentalta">
-          <p class="large">Řešení kvadratické rovnice (ax<sup>2</sup> + bx + c = 0)</p>
+<h1>quadratic equation</h1>
+          <p class="large">Solution of quadratic equation (ax<sup>2</sup> + bx + c = 0)</p>
             <?php
             require_once("./tridy/rovnice.php");
             if (isset($_GET['c'])) {
@@ -24,10 +19,7 @@
 			      $krov->vypocKoren($a, $b);
             $krov->vyTiskni();
             }          
-			     ?> 
+	    ?> 
 <div id="footer"><a href='index.html'>Nové zadání</a></div>
-</div>
-</div>
-</div>
 </body>
 </html>
