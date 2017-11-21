@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="./style/bootstrap.css" type="text/css" media="screen"/>
 </head>
 <body class="jumbotron">
-<h1>quadratic equation</h1>
+<h1>Quadratic equation</h1>
           <p class="large">Solution of quadratic equation (ax<sup>2</sup> + bx + c = 0)</p>
             <?php
             require_once("./tridy/rovnice.php");
